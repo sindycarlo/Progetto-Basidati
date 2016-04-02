@@ -1,0 +1,81 @@
+<html>
+	
+<head>
+
+<title>database-garenuoto</title>
+<style type="text/css">
+body {
+background-image: url('DSC0004.jpg')
+}  
+form{width: 350px;border: 5px solid #7EA4D8;
+    padding-bottom: 10px;background-color: #BBD8FF}
+    
+fieldset{border: 0px solid #000}
+
+legend{font: bold 140%/1.6 Arial,sans-serif;color: #27518A}
+
+form p{margin: 10px 10px 20px}
+
+label {
+    display: inline-block;
+    width: 10px; 
+}
+
+fieldset label{float:left;width:100px;
+    line-height: 23px;margin-right: 5px;} 
+    
+    fieldset input,textarea{ margin-bottom:5px;border-style: solid;
+    border-color: #778AA2 #7EA4D8 #7EA4D8 #778AA2;
+    border-width: 2px 1px 1px 2px}
+    
+</style> 
+
+</head>
+
+<body>
+	
+	<form name="pagina_ricerca.html" method="post" action="risultati_ricerca.php">
+	
+	  <legend>inserisci i dati relativi all'atleta:</legend>
+	  <p>
+	    <label>nome:
+	    <input name="nome" type="text" />
+	    </label>
+	  </p>
+	  <p>
+	    <label>cognome:
+	    <input name="cognome" type="text" />
+	    </label>
+	  </p>
+	   <p>
+	    <label>et&agrave;:
+	    <input name="eta" type="text" />
+	    </label>
+	  </p>
+	  <p> <label>sesso:
+	  	  <select name="sesso">
+	      <option value="M">maschio</option>
+	      <option value="F">femmina</option>
+	   	 </select>
+	   	 </label>
+	  </p>
+	  <p>
+	    <label>categoria:
+	    <select name="categoria">
+	      <option value="cat3">junior</option>
+	      <option value="cat2">cadetti</option>
+	      <option value="cat1">senior</option>
+	    </select>
+	    </label>
+	  </p>
+	   <p>
+	    <input name="invia" type="submit" value="Invia" />
+	  </p>
+
+	  </form>
+	
+	
+</body>
+
+
+</html>
