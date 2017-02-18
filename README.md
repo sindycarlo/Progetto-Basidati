@@ -1,2 +1,2 @@
 # Progetto-Basidati
-database che gestisce campionati di nuoto.(linguaggio utilizzato mysql,php,html,css)
+That database manages Swimming Championships. (Language used MySQL, PHP, HTML, CSS)
